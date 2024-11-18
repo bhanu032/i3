@@ -1,0 +1,70 @@
+/* rightbar.css */
+
+.rightbar {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.rightbarWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.announcementSection {
+  margin-bottom: 20px;
+}
+
+.rightbarTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.announcementContainer {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.announcement {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.announcementInput {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.announcementInput input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.announcementInput button {
+  padding: 8px 15px;
+  background-color: #1877f2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.announcementInput button:hover {
+  background-color: #166fe5;
+}
+
+.announcementInput button:active {
+  background-color: #145fad;
+}

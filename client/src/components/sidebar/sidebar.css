@@ -1,0 +1,84 @@
+.sidebar {
+  flex: 3;
+  height: calc(100vh - 50px);
+  overflow-y: auto;
+  position: sticky;
+  top: 50px;
+  background-color: #fff; /* Set sidebar background color */
+  border-right: 1px solid #ddd; /* Add border to separate from main content */
+}
+
+.sidebarWrapper {
+  padding: 20px;
+}
+
+.sidebarList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sidebarListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px; /* Reduce margin between sidebar items */
+  padding: 10px; /* Add padding to increase clickable area */
+  border-radius: 5px; /* Add border-radius for rounded corners */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+  cursor: pointer; /* Add pointer cursor */
+}
+
+
+.sidebarListItem:hover {
+  background-color: #f1f1f1; /* Change background color on hover */
+}
+
+.sidebarIcon {
+  margin-right: 15px;
+  color: #333; /* Set icon color */
+}
+
+.sidebarListItemText {
+  font-size: 16px; /* Increase text size for better readability */
+  color: #333; /* Set text color */
+}
+
+.sidebarButton {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: #007bff; /* Set button background color */
+  color: #fff; /* Set button text color */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.sidebarButton:hover {
+  background-color: #0056b3; /* Darken button color on hover */
+}
+
+.sidebarHr {
+  margin: 20px 0;
+}
+
+.sidebarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Customize scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
